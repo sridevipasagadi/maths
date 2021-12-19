@@ -1,0 +1,48 @@
+body{
+	font:sans-serif;
+}
+#container{
+	width: 1050px;
+	margin: 0 auto;
+	border: 1px solid pink;
+}
+#header{
+	height: 100px;
+    padding: 10px 0;
+}
+#brandname{
+	float: left;
+}
+h1 a{
+	font-size: 50px;
+	font-weight: 100;
+	color:deeppink;
+	text-decoration: none;
+}
+#searchbox{
+	float: right;
+	width: 400px;
+	height: 50px;
+	margin-top: 20px;
+	background: linear-gradient(deeppink,pink);
+	padding: 20px 20px 0px 20px;
+}
+.text{
+	float: left;
+	padding: 5px;
+	width: 200px;
+	font-size: 15px;
+	border: 1px solid pink;
+	color: deeppink;
+	background: white url();
+}
+.submit{
+	float: right;
+	padding: 5px;
+	font-weight: bold;
+	color: white;
+	font-size: 15px;
+	background:pink;
+	border: 1px solid pink;
+	
+}

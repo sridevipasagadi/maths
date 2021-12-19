@@ -1,0 +1,85 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>alertclickbuttonchangevariables</title>
+	<style>
+		
+		.facebook{
+			background-color: blue;
+			color: white;
+			width: auto;
+			height: 100px;
+		}
+	</style>
+
+
+
+
+
+</head>
+<body>
+
+	<!--alert-->
+	<script>
+	    alert("hello");	
+	</script>         
+
+
+<!--clickbutton-->
+	<button onclick="alert('hai')">Click me</button>
+	<button ondblclick="alert('hello everyone')">doubleclick</button>
+     
+     <!--change html content and styles-->
+
+    <div class="facebook" id="facebook">
+    	<p>facebook is socialmedia</p>
+    </div>
+	<button id="button5">click on fb</button>
+	<script>
+		<!--contentchange-->
+
+		document.getElementById("button5").onclick=function(){
+			document.getElementById("facebook").innerHTML="<p>Facebook</p>";
+			
+			<!--change styles-->
+
+			document.getElementById("facebook").style.background='pink';
+			document.getElementById("facebook").style.width='100px';
+
+		}
+
+		<!--variablesand datatypes-->
+
+		var x=5;
+		window.console.log(x);
+
+		var y;
+		y=10;
+		window.console.log(y);
+
+		var z;
+		z=x+y;
+		window.console.log(z);
+
+        
+		var name="sridevi";
+		var greeting="always keep smiling"
+		var message=name+""+greeting;
+		window.console.log("happy birthday"+message);
+
+
+
+
+
+
+
+
+
+	</script>
+
+
+
+</body>
+</html>

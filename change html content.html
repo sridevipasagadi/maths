@@ -1,0 +1,42 @@
+<!doctype html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>change html content</title>
+		<style>
+			
+			.apple{
+				background-color: red;
+				color: white;
+				height: 100px;
+				width: auto;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="apple" id="apple">
+			<p>Apple</p>
+		</div>
+
+		<button id="button1">change content</button>
+		<script>
+			<!--content change-->
+
+			document.getElementById("button1").onclick=function(){
+				document.getElementById("apple").innerHTML="<p>Apple is sweet</p>";
+            
+             <!--content change style -->
+			
+				document.getElementById("apple").style.background="pink";
+				document.getElementById("apple").style.width='300px';
+			}
+
+
+
+		</script>
+
+	
+	</body>
+	</html>
